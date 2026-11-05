@@ -1,7 +1,26 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
-let titles =  titles_model + titles_method + titles_type;
+let haze = [
+    "haze intrinsic decomposition", "intrinsic image decomposition",
+    "intrinsic decomposition", "dehazing", "haze", "hazy", "defogging",
+    "atmospheric scattering", "atmospheric light", "airlight", "transmission map"
+];
+
+let lighting = [
+    "relighting", "relightable", "inverse rendering",
+    "illumination estimation", "lighting estimation", "inverse lighting",
+    "time-of-day", "time of day", "day-to-night"
+];
+
+let scenes = [
+    "Gaussian splatting", "3DGS", "4DGS", "4D Gaussian",
+    "deformation field", "dynamic scene reconstruction", "temporal extrapolation"
+];
+
+let editing = [
+    "video summarization", "highlight detection", "moment retrieval",
+    "shot selection", "video editing"
+];
+
+let titles = haze + lighting + scenes + editing;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
 
 let conferences = [
